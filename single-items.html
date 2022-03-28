@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apparel Store</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sp.css">
+</head>
+
+<body>
+  <!-- header======================================================== -->
+  <header id="header">
+    <div class="header-init flex wrapper">
+      <h1>
+        <a href="index.html">
+          Apparel Store
+        </a>
+      </h1>
+      <!-- メニューボタン -->
+      <div class="menu-btn">
+        <span class="menu-topline"></span>
+        <span class="menu-baseline"></span>
+      </div>
+    </div>
+    <!-- グローバルメニュー ：（ハンバーガー）-->
+    <nav class="global-menu">
+      <ul>
+        <li><a href="#footer-id">ABOUT</a></li>
+        <li><a href="">ALL</a></li>
+        <li><a href="#pickup">Pick Up</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- マスク -->
+    <div id="mask"></div>
+  </header>
+  <!-- main========================================================== -->
+  <picture>
+    <source media="(max-width: 896px)">
+    <img class="sp-thumb" src="images/item1.jpg" alt="">
+  </picture>
+  <main class="wrapper">
+    <div class="contents flex">
+      <!-- 左コンテンツ -->
+      <div class="left-thumb">
+        <img src="images/item1.jpg" alt="">
+      </div>
+      <!-- 右コンテンツ -->
+      <div class="right-spec">
+        <h2 class="spec-title">Short Sleeve Shirt</h2>
+        <p class="spec-text">
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <p class="price">¥3,000 +tax</p>
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>Size</th>
+              <th>Chest</th>
+              <th>Weist</th>
+              <th>Height</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>S</th>
+              <td>99~99</td>
+              <td>99~99</td>
+              <td>99~99</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>M</th>
+              <td>99~99</td>
+              <td>99~99</td>
+              <td>99~99</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>L</th>
+              <td>99~99</td>
+              <td>99~99</td>
+              <td>99~99</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="btn">
+          <a href="" class="to-cart-btn">
+            <span>
+              Go To Cart
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 戻るボタン -->
+    <div class="btn">
+      <a href="index.html" class="back-btn">
+        <span class="back-btn-text">Back</span>
+      </a>
+    </div>
+  </main>
+  <!-- footer========================================================= -->
+  <footer>
+    <div class="footer-contents flex">
+      <section id="footer-id">
+        <h4>About</h4>
+        <p class="footer-id-p">
+          <!-- ※WPウィジェット制御 -->
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <ul class="footer-id-li">
+          <li><a href="page-about.html">会社概要</a></li>
+          <li><a href="#">店舗紹介</a></li>
+          <li><a href="page-qa.html">お問い合わせ</a></li>
+        </ul>
+      </section>
+      <section id="footer-nav">
+        <h4>Menu</h4>
+        <nav>
+          <ul class="footer-nav-li">
+            <li><a href="">All</a></li>
+            <li><a href="">Pick Up</a></li>
+            <li><a href="">Products</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="footer-sns">
+        <h4>Instagram</h4>
+        <a class="footer-sns-size" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <img src="images/blank_320×320.jpg" alt="">
+        </a>
+      </section>
+    </div>
+
+    <p id="copyright">&copy; Apparel Store</p>
+  </footer>
+  <script src="jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
